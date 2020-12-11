@@ -1,0 +1,47 @@
+.main-footer{
+    padding-top: 3em;
+    margin: 3px;
+    margin-left:20px;
+    position: relative
+
+    
+    
+}
+
+.container{
+    
+    
+       
+}
+
+.row{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+}
+ h4{
+    color:#2F4F4F;
+    font-size: 16px;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    font-weight: 0.4;
+    letter-spacing: 1.2px;
+}
+.list-unstyled{
+    list-style: none;
+    line-height: 1.9;
+    font-size: 14px
+}
+
+.bottom-footer{
+    margin-left: 9.8rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

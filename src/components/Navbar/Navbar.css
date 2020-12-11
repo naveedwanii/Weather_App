@@ -1,0 +1,42 @@
+.background-image{
+    background-image: url('http://bestanimations.com/Nature/winter/winter-snow-nature-animated-gif-23.gif');
+}
+
+.NavbarItems{
+    background: #131921;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 1.2rem
+}
+.navbar-logo{
+    margin-left: 20px;
+    cursor: pointer;
+    justify-self: start
+}
+.fa-cloud-sun{
+    margin-left: 0.5rem;
+    font-size: 1.6rem
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem
+}
+.nav-links:hover{
+    background-color: #dc3545;
+    border-radius: 4px;
+    transition: all 0.2s ease-out
+}
